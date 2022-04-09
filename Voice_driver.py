@@ -3,7 +3,7 @@ import time
 import speech_recognition as sr
 
 
-def recognize_speech_from_mic(recognizer, microphone):
+def recognize_speech(recognizer, microphone):
     """Transcribe speech from recorded from `microphone`.
 
     Returns a dictionary with three keys:
